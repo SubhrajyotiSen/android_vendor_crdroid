@@ -52,3 +52,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
    org.dirtyunicorns.utils
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
